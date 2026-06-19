@@ -16,6 +16,7 @@ A simple responsive portfolio website built with HTML, CSS, and JavaScript.
 - Hash-based routing
 - Mobile navigation menu
 - Resume-based portfolio content
+- Resume download
 - Local profile image
 
 ## Files
@@ -24,6 +25,7 @@ A simple responsive portfolio website built with HTML, CSS, and JavaScript.
 - `styles.css` - Website styling and responsive design
 - `script.js` - Simple route switching and mobile menu behavior
 - `assets/ammu-b-profile.jpeg` - Portfolio profile image
+- `assets/ammu-b-resume.pdf` - Downloadable resume
 
 ## How to Run
 

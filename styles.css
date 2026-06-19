@@ -182,7 +182,8 @@ h3 {
 }
 
 .primary-btn,
-.secondary-btn {
+.secondary-btn,
+.download-btn {
   display: inline-flex;
   min-height: 48px;
   align-items: center;
@@ -201,6 +202,11 @@ h3 {
 .secondary-btn {
   color: var(--ink);
   background: var(--yellow);
+}
+
+.download-btn {
+  color: #ffffff;
+  background: var(--coral);
 }
 
 .profile-panel {
