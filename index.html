@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ammu B | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/home" aria-label="Ammu B home">
+      <span class="brand-mark">AB</span>
+      <span>Ammu B</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#/home" data-route="/home">Home</a>
+      <a href="#/about" data-route="/about">About</a>
+      <a href="#/skills" data-route="/skills">Skills</a>
+      <a href="#/projects" data-route="/projects">Projects</a>
+      <a href="#/contact" data-route="/contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="route-page home-page" data-page="/home">
+      <div class="hero-copy">
+        <p class="eyebrow">Computer Science Student</p>
+        <h1>Software developer building practical, user-friendly web experiences.</h1>
+        <p class="hero-text">
+          I am Ammu B, a curious Computer Science and Engineering student focused on clean code,
+          real-world applications, and continuous learning.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#/projects">View Projects</a>
+          <a class="secondary-btn" href="mailto:ammu20062501@gmail.com">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="profile-panel" aria-label="Profile summary">
+        <img class="profile-photo" src="assets/ammu-b-profile.jpeg" alt="Portrait of Ammu B">
+        <div class="profile-details">
+          <span>Software Developer</span>
+          <strong>B.E. Computer Science and Engineering</strong>
+          <small>Francis Xavier Engineering College, Tirunelveli</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="route-page split-page" data-page="/about" hidden>
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Driven by learning, clarity, and useful software.</h2>
+        <p>
+          I enjoy solving real-world problems through code and building applications that are
+          simple to understand, efficient to use, and thoughtfully designed.
+        </p>
+        <p>
+          Currently pursuing B.E. Computer Science and Engineering at Francis Xavier Engineering
+          College with a CGPA of 8.46/10.
+        </p>
+      </div>
+      <div class="info-grid">
+        <article>
+          <span>Education</span>
+          <strong>B.E. CSE</strong>
+          <p>2024 - 2028</p>
+        </article>
+        <article>
+          <span>HSC</span>
+          <strong>Alagar Public School</strong>
+          <p>77.4%</p>
+        </article>
+        <article>
+          <span>Languages</span>
+          <strong>English, Tamil</strong>
+          <p>Comfortable communicating and collaborating.</p>
+        </article>
+        <article>
+          <span>Strengths</span>
+          <strong>Teamwork and problem solving</strong>
+          <p>Creative, adaptable, and time-conscious.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="route-page" data-page="/skills" hidden>
+      <div class="page-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical skills and certifications</h2>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <div class="tags">
+            <span>C</span>
+            <span>Python</span>
+            <span>Java</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Web Technologies</h3>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <div class="tags">
+            <span>VS Code</span>
+            <span>Canva</span>
+            <span>Code::Blocks</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="certifications">
+        <h3>Certifications</h3>
+        <ul>
+          <li>Ethical Hacking - NPTEL</li>
+          <li>Human Computer Interaction - NPTEL</li>
+          <li>MongoDB Basic for Students - MongoDB</li>
+          <li>Java Foundations - Oracle Academy</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="route-page" data-page="/projects" hidden>
+      <div class="page-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected work</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <h3>Student Database Management System</h3>
+          <p>
+            A software application for storing, managing, and retrieving student information such
+            as names, IDs, courses, marks, and attendance in a structured database.
+          </p>
+          <div class="project-tags">
+            <span>Database</span>
+            <span>Student Records</span>
+            <span>Management</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>Light and Dark Mode Toggle</h3>
+          <p>
+            A theme-switching interface that lets users move between bright and dark modes for
+            better readability and reduced eye strain in low-light environments.
+          </p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="route-page contact-page" data-page="/contact" hidden>
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let's connect and build something useful.</h2>
+        <p>
+          I am open to learning opportunities, project collaboration, and software development
+          roles where I can keep improving through hands-on work.
+        </p>
+      </div>
+
+      <div class="contact-list">
+        <a href="mailto:ammu20062501@gmail.com">
+          <span>Email</span>
+          <strong>ammu20062501@gmail.com</strong>
+        </a>
+        <a href="tel:+916374690752">
+          <span>Phone</span>
+          <strong>6374690752</strong>
+        </a>
+        <a href="https://www.linkedin.com/in/ammu-balamurugan-441a20327" target="_blank" rel="noreferrer">
+          <span>LinkedIn</span>
+          <strong>ammu-balamurugan-441a20327</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ammu B. Built with HTML, CSS, and JavaScript routing.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
